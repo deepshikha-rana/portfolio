@@ -1,0 +1,232 @@
+<!-- This is the DOCTYPE declaration. It tells the browser what version of HTML to use. -->
+<!DOCTYPE html>
+
+<!-- This is the opening HTML tag. -->
+<html>
+
+<!-- This is the head section of the HTML document. It contains information about the document, such as the title and the CSS styles. -->
+
+<head>
+
+  <!-- This is the title of the document. It will be displayed in the browser's title bar. -->
+  <title>CSI's Portfolio</title>
+
+  <!-- This link tag imports the Font Awesome CSS library. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- This link tag imports the CSS Stylesheet. -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- This link tag imports the Inter font. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+
+</head>
+
+<body>
+  <header>
+
+    <h1 class="port_heading">Deepshikha's Portfolio</h1>
+    <nav>
+      <a class="about_nav" href="#about">About</a>
+
+      <a class="skills_nav" href="#skills">Skills</a>
+
+      <a class="projects_nav" href="#projects">Projects</a>
+
+      <a class="contact_nav" href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+  <section id="about">
+
+    <h2 class="port_about">About Me</h2>
+
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJoApAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUCAwYBB//EAEEQAAEDAgMDCAUKBQUBAAAAAAEAAgMEEQUSIRMxQQYiUWFxgZGxFDJSU6EVI0JigpKTwdHhM0NjovBEcoPC0hb/xAAbAQACAwEBAQAAAAAAAAAAAAAABAMFBgIBB//EADYRAAIBAgMECAQEBwAAAAAAAAABAgMRBBIxBSFBURNhcYGRscHwIjKh0RQjQmIzUqLC0uHx/9oADAMBAAIRAxEAPwDkURFnT7MEREAYTSMhidJIbNaCSuafLJU1kNRPe7nENbwYLaAK0x6T5mGnH82S7usN181WyCz6Y8BKPJP4eKjHNxZk9s15Va3R3+GFvH/SJeUdCZQd27pW7KOHdpvUapexxEIcCSbuAOo7URu2eVbU43Z64tb6zmjtIWG1h96z7wWprGt9VjR2BZdy7shbpJMz2kXvWfeCyBa71XNPYQtSxcwO9ZgPaEWQdJIkZUyrQwbNzXNFrcOpSwA4AtIcDuIXMlYlpNTbXEra+PaTwx62sSexXGDVjnj0WoPzrBzXH6bf1Cr5ADXEezF5laqkmNolYbPjOZpUkoqcVFi1GrLC15YiPPeuaXvcdQi8YQ5jXDcRdeqsNwmmroIiLw6CIiACIiACIiAKXFjnxOJvsQ37yf2Ud8cs8sNPSwvmnDw/I0cB1rdVc/FqgeyxjfgSrLk5zce6nUrtPtBP5+jp35IwuPlL82a4yt4O3oS6Lk1UVLgcSn2EfuIDr3u/QLZylwKkpcLjqsOp2xmldeQNFy6M2DiTvPA+K6OPdYfFScjJY3RyNzMe0tcOkHTyVN+OqqopN7lwKqUp1Hmk7s+ZCO4BbqDu617slLNG+hrKigeXF1O7mOdvdGfVPgvdkrZztoabDUlXpKouJC2a92SmbPqTZLzpCf8ABkMxOIsxuZ5IDW9LibAeKvKrksaaCN1BNlqGsG1a88yV3T9VbOTlD6RiZncPmqUDvkcDbwFz3hdFPpuSmIxcoTUYPtM9jp2r2g/l8+P2Pm4EnyhO2aJ0UrWNBY/v8QvJ2Zo3s6Ra66nHqCOsgL/VlhBcyQDUdXWFzUTtpDHJa2Zt7J6lWVSKkjvCVemjKnLXe+25a4Y/aYdTO/ptCkqBgRvhNOD0HzKnpWqrVJdptMBLNhacnxivIIiKMcCIiACIiACIh0QeXKQjNiNafrgfAKwwbm47T/WhkHkVChsamsOh+fI+AUyi5mOYaeuRv9hTlTemur0MXioXwk5/ub/rOzjKlxqJGpcazkykiUPLGjEfo2LNH8I7Got7tx0PcfNVvox38OxdtLBHV0k1NO3NHKwscOork6KKspYjSVVDWyTUzjHtGU7i2RrdA4Hdayew9dypZeMfIt9m478NmhJ7nv7yN6Mf8Cxni2MTpHAkNF7Aano/TtVtsqzhg2JH/haPNwW+hw6pqMQpzU0NRTQQu2hM2XnuHqjmk8dfshSKslvk/qixq7XioPI7sl4TQHD8MjhkA2zrvmI4vdqfDQDqCxnVlPxvx6FWzhV6m5ycnxMxIqsR5tLMRp827yK5CmAbQRE8Ix5Lq8aOXDKt3RA7yK5WRuXCtOEH/VXWD/h945s7dKpLlEsMHbkwynH1L+OqmKFhFTHPRsYzR8TA17DvH7KavKqed3Nvs+UJYWnkd1ZLwCIijHAiIgAiIgAo+I1JpKKWdurmize0mykKHjLA/C6i/s3+N1JTSc0mKY6U44apKGqTt4FZg7dnLPC43Oj79N96tWWbiWGv/r5detpCpXMz5XtJbI3VrxvH7KyhqDOzCp3aPNXGCOu5BTdWN3m57voZSMksDUoPgrrsv5o7mNS41EjUqIrMzKVEyMqVFzdyixjW3FSo0rMlRKj6lon/AMvqt8a0TqGOp2yunVdOrGo03qvnCepEMiix85cJrD/Qd5KhkhL6DZcTFl+FlecojbB6u/uiFR18roKeKOL+LLzWno01KvcKnkVuZZbKcFGtKell9bkPDjnrKF4tcxOzEcbDd3K+VJh0LYa+niZezIXm/eFdqXEv4lb3vZotiRlGjLNrf+1BERLF0EREAEREAFpr256Gob7UbvJbl48ZmFvSLLqLs0yKtDPTlHmmc/TawxvO7KCbq25IUD5WR1lSLMiuKZvadXLnw4jDIzYuaCA9oNrtB3L6Bhs0E9HDJRgbEts0DgBw6rcexM4ycqdN24v34nznEVXLJFcvG9vt4k2lqqed8jIZ45Hxmz2tcCWnrU+IHU9Cw5PPwnDhJR4phkM+FzP2jntj+epXkBudjhzstgAQDccNNFfHAMOrHv8A/leUdFWOH+jqZ2ucOoPbzh3tcetIPZ/TQz0JX6uIp0uV2kiooZnSumY8Na6GUscQOFgW/wBrh4KyjKrXUtZh+NSQ4hRy0sk8Ic0PsWPLHWJa4Eg6OZ1i2oVjGqnF05U52krDFOSauiXGtM63RqLiEphp5ZWsdI5g5rG73u3Bo6ybAdqTpxcpWRK3ZXKlkz531LtDGyXZxm+/KLE/ezDuUefj1LpsJ5FYwaOBuI1FLh0cbRnc752Vx3uJsQ1pJub3dvWvEqLkJQ4dUwzz/L1a9pi2QqhI+542ZZkdvasCOs2B0lPZdS7lO0UIyxEdFvZwtbHDX0skOYPjkuCWOGneuSqzPHW09JVDNJEXESDc9ttD5rqqWjFFAYy8vc45nHTQ7tLW7+n4Lm8TqGVWLsjhOYUwdtH9JPBMYTdJxjvQzh6k1UjGP6mrrvuKMXxY9UH5/srZVlAAcUnNxzYWi3eSrNe1/mXYbvZa/Kk/3Pzt6BERQFmEREAEREAEREAU+KU0VO5s7G2jlfkmbwN+K95M17sKq30k7z6M9+Un2XHcew8VY1sLamlkh9ttuzrVCSHMhnkHNPzMw/XvT1NqrScJe+RiNu4NU6meCtx9Jej8T6XHe+8jitzoIKluWphjmHRI0OHgVxmC4vJhkjaate51E45Ypnm5hPAHq8l28Nr7/DVUeJoyovyZRwkpI9hoYmSU7oDJCyEm0THnJYttbLew4agX0VpGosRUqNV9apKfzO5NFJaEuMqDitKKtsTHSPZG2VshDHFrjl1FnAgtIdlNx0KbGtU4S9ObhPNHUkkk1ZlNV0NLK8SVEDaiRu6SoJlePtOuVHnFhl+iBYDgrCdcxylxj5Pa2npgH1kw5gO5jfad+Ss6HSV5KN7vrF52irldynxT0GHYwuHpEgJvvLG8XH8lyWHU8zp42QvyySMLnuOtm9Pat9Ww7UROe6SaU7SaR291t3xU/A48zqipdfV2zZ2D91ooRjQo7hjZmFeJxMb8/ot7+3eTqSlipYy2MEuPrPcblx6St6IknJyd2fRadKFKKhBWSCIi5JAiIgAiIgAiIgBxuqWqpwKqrpTo2obtWf7uPxsVdKBi7S2OGqaLugfd1vZOhU9CVpW5lXtWip0M7/Tv7tH9CLTuFVSNMrb5hlePNdTyNr3yxSYdO7NLTWMbjvdHuHgfyXKWFNUkAjYVBzRvvoHfup0MxwyvpcRNw2NwZPb3btD4GxXWIpqrBx5712+9x89qU5Yeq4y4eXvefSIlLjUSLcLaqXGVlZjaJUa1zrZEsJwoF8x29CmxarioaOaqnNo4mF5/TxsvmjppJHy11c4CaZ2Z1zowcG9i6flzVGoqqfCw7mMHpFT2fRHjfwC5OCJtZK+okBMV7RNO6w+lbpWp2fRUKOd8fLh46i8KM8TW6OBFc+7aisIdYjKzThw8Sr+gg9Go4ouLW69vFVsjBNXU1Pbm5to63Q3d3XVzdNYid4pGu2Ng1SlJ/wAvw9+r9AiIlDRBERABERABERABERABDYtLSAQd90RenjSepTSwxUuejqSfRJQTFIfoEa2UvDXGso3UtY1wkMV7ubbPGdzx8FIrKeOrp3QyjRw39B6VdYLBQ8qIoaTGmOFfQDI/I7LtYzu7Wnfw17VNUxCVPNJaa9XX38TDbcwU6U42Xw77f49i4dW7gOT3KnDWYVTx4hXRx1UI2bwbm+U2BBtY3GquYuVOBccUpx2uK1xUcWH4pPRxxMjie0TRMDRYWs1wA6NGn7StYI4jvYw9rbqlxLoOWdRe/fquPcVMM6VrmmLlTgPHFqT8QLyflPgVr/K1GeyUK0FLDs7ejRfhhc9yhpodiymbBC19S8RXyAHKblxH2QfEJejChUnaz8V9juTmlwOGxCWSswzEMXc4NNXJmIJFxGDZrb9NljLJBBTMkBtEWjIANT0ALq8WwTAsIpflKelY2RgJEf8ALJ4Es3EhchhNDoKqdrt5MEbjfZN/VaKlWp1aeZXsn7XdzH9iqsqsqcFdta8ut/bmb8Op5GyvqahuV8jbBm8sb0HrU5EUc5OTuzbYahGhDIv+sIiLgYCIiACIiACIiACIiACIiAC1PdPTVENfR6VMG4D+Y072nqK2pxuuk7C+Jw0MTSdOejJuM8r24i6jlwenLpYgTLJUAhrcw1Z0k7je/wBFRm8q8fZ6sWF/abIfzVRPRVEVS+SiDCyTVzHOtldxI7Vr2GJe5g/E/ZSLDYfKkkrdepkobMyXVWMnLmk7d1i+HLPlEBbZYT9yT/0sYOVFUMThqsZpY5Io2uaDRZrsuRclpOu4dCothiXu4PxD+i9dRV81mSuijYdHOY8kgdWiFhsOuCQVNnRcfghO/DX13FxjeKDlJiLXxFxwymI2eYW2rum3QF5dYRRsijbGxtmNFgFmo3lSUYaLQ0mzcBHB0susnq+v7LgERFyWIREQAREQAREQAREQAREQAREQAREQA3jVERB5YJdEXoWCIi8PQiIgAiIgAiIgAiIgD//Z" alt="Profile Picture" class="logo_syn">
+    <p>Hi ! I am Deepshikha!</p>
+
+    <p>We at CSI simply strive for uplifting the computer science community,
+        and even more so, we strive to make a positive impact on one another. We
+        keep our core team closely knit and constantly come up with new ideas.
+        Be it campaigns, events, study groups and what not.
+    </p>
+    <p>Through our chapter, students get boundless opportunities and marvelous
+        exposures beyond the confined textbook syllabi. It has been a successful
+        journey for our chapter till date in the form of workshops, hackathons,
+        learning weekends, competitions and educational visits, all of which
+        with much more, continues to be delivered by us.</p>
+
+  </section>
+
+  <section id="skills">
+
+    <h2 class="port_skills">Skills</h2>
+
+    <div class="skill-icons">
+      <a href="https://github.com/torvalds/linux" target="_blank"><i class="fab fa-linux"></i></a>
+      <a href="https://python.org" target="_blank"><i class="fab fa-python"></i></a>
+      <a href="https://figma.com" target="_blank"><i class="fab fa-figma"></i></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i class="fab fa-html5"></i></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><i class="fab fa-css3-alt"></i></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><i class="fab fa-js"></i></a>
+      <a href="https://react.dev/" target="_blank"><i class="fab fa-react"></i></a>
+      <a href="https://nodejs.org" target="blank"><i class="fab fa-node"></i></a>
+    </div>
+
+  </section>
+
+  <section id="education">
+
+    <h2 class="port_ed">Education</h2>
+    <p>Bennett University (2024-2028)</p>
+    <p>ABC School</p>
+  </section>
+
+
+
+
+    <section id="projects">
+      <h2 class="port_projects">Projects</h2>
+
+      <section id="projects">
+        <div class="projects">
+          <div class="project">
+            <h3>ClubKonnect</h3>
+
+            <p>This is a description for project 1.</p>
+
+            <a
+              href="https://github.com/CSI-Bennett-University/ClubKonnect"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <comment>View Project</comment>
+            </a>
+          </div>
+
+          <!-- This div container holds another single project. -->
+          <div class="project">
+            <!-- This h3 heading defines the project name. -->
+            <h3>Portfolio_Template</h3>
+
+            <!-- This paragraph defines the project description. -->
+            <p>This is a description for project 2.</p>
+
+            <!-- This anchor tag provides a link to the project's GitHub repository. -->
+            <a
+              href="https://github.com/CSI-Bennett-University/Portfolio_Template"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <!-- This is because the GitHub repository contains the project's source code. -->
+              <comment>View Project</comment>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects">
+          <div class="project">
+            <h3>kavach</h3>
+            <p>This is a description for project 3.</p>
+
+            <a
+              href="https://github.com/CSI-Bennett-University/kavach"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <comment>View Project</comment>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>github-demo</h3>
+
+            <!-- This paragraph defines the project description. -->
+            <p>This is a description for project 3.</p>
+
+            <!-- This anchor tag provides a link to the project's GitHub repository. -->
+            <a
+              href="https://github.com/CSI-Bennett-University/github-demo"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <!-- This is because the GitHub repository contains the project's source code. -->
+              <comment>View Project</comment>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects">
+          <div class="project">
+            <h3>profile-pulse</h3>
+
+            <!-- This paragraph defines the project description. -->
+            <p>This is a description for project 3.</p>
+
+            <!-- This anchor tag provides a link to the project's GitHub repository. -->
+            <a
+              href="https://github.com/CSI-Bennett-University/profile-pulse"
+              style="color: #b4befe; text-decoration: none"
+            >
+              <!-- This is because the GitHub repository contains the project's source code. -->
+              <comment>View Project</comment>
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- This is the "Contact Us" section of the document. -->
+    <section id="contact">
+      <!-- This h2 heading defines the section title. -->
+      <h2 class="port_contact">Contact Us</h2>
+
+      <!-- This paragraph defines the contact information. -->
+      <p>
+        <!-- This icon links to the CSI GitHub repository. -->
+        <i class="fab fa-github"></i>
+        <a
+          href="https://github.com/CSI-Bennett-University"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <!-- This is because the GitHub repository contains the project's source code. -->
+          <comment>GitHub: CSI</comment>
+        </a>
+      </p>
+
+      <p>
+        <!-- This icon links to the CSI website. -->
+        <i class="fas fa-globe"></i>
+        <a
+          href="https://csi-bu.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <!-- This is because the website contains more information about the CSI. -->
+          <comment>Website: csi-bu</comment>
+        </a>
+      </p>
+
+      <p>
+        <i class="fab fa-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/company/csi-bu/mycompany/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <comment>LinkedIn: CSI</comment>
+        </a>
+      </p>
+
+      <p>
+        <i class="fas fa-envelope"></i>
+        <a
+          href="mailto:csi@bennett.edu.in"
+          style="color: #d5d4f0; text-decoration: none"
+        >
+          <comment>Email: csi@bennett.edu.in</comment>
+        </a>
+      </p>
+    </section>
+  </body>
+</html>
